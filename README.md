@@ -4,3 +4,4 @@ Technologies Used
 - Next.js
 - HTML
 - CSS
+- TypeScript
