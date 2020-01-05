@@ -2,6 +2,5 @@
 Technologies Used
 - React.js
 - Next.js
-- HTML
-- CSS
+- Javascript (JSX)
 - TypeScript
