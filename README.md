@@ -4,3 +4,5 @@ Technologies Used
 - Next.js
 - Javascript (JSX)
 - TypeScript
+
+Updates will be rolling out throughout the year
