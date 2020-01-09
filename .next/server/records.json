@@ -1,0 +1,47 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/ContactPage.tsx": 0,
+      "multi private-next-pages/ExperiencesPage.tsx": 1,
+      "multi private-next-pages/ProjectsPage.tsx": 2,
+      "multi private-next-pages/index.tsx": 3,
+      "multi next/dist/pages/_app": 4,
+      "multi next/dist/pages/_error": 5,
+      "multi next/dist/pages/_document": 6
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "static/ZMGma9qvHOoG7kSTmQtbg/pages/ContactPage.js": 2,
+      "static/ZMGma9qvHOoG7kSTmQtbg/pages/ExperiencesPage.js": 3,
+      "static/ZMGma9qvHOoG7kSTmQtbg/pages/ProjectsPage.js": 4,
+      "static/ZMGma9qvHOoG7kSTmQtbg/pages/_app.js": 5,
+      "static/ZMGma9qvHOoG7kSTmQtbg/pages/_document.js": 6,
+      "static/ZMGma9qvHOoG7kSTmQtbg/pages/_error.js": 7,
+      "static/ZMGma9qvHOoG7kSTmQtbg/pages/index.js": 8
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

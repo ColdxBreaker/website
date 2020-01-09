@@ -2,7 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "description": "",
-  "main": "Index.tsx",
+  "main": "index.tsx",
   "scripts": {
     "dev": "next",
     "build": "next build",

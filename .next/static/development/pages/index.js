@@ -10463,7 +10463,7 @@ function SvgLinkedin(props) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fchris%2FDesktop%2Fwebsite%2Fpages%2Findex.tsx ***!
   \*************************************************************************************************************************/
@@ -10486,5 +10486,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

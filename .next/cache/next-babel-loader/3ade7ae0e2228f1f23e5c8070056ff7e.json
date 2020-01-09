@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport Contact from \"../components/Contact/Contact\";\nimport Layout from \"../hoc/Layout/Layout\";\nexport default function ContactPage() {\n  return __jsx(Layout, null, __jsx(Contact, null));\n}","map":null,"metadata":{},"sourceType":"module"}
