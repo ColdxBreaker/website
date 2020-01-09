@@ -1,0 +1,33 @@
+.Project {
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    width: 55%;
+    height: 250px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+.Project:hover{
+    background-color: #ebedee;
+    cursor: pointer;
+}
+.title {
+    text-align: left;
+    font-weight: bold;
+    color: green;
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+}
+.date {
+    text-align: right;
+    width: 40%;
+    font-weight: bold;
+    float: right;
+    margin-right: 50px;
+}
+
+/*Add mobile support after*/

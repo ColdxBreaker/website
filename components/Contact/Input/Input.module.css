@@ -1,0 +1,11 @@
+.Inputbox {
+    text-transform: capitalize;
+}
+
+.Inputbox input{
+    background-color: #f5f8fa;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: inline-block;
+    width: 90%;
+}

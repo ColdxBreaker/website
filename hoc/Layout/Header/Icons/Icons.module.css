@@ -1,0 +1,9 @@
+.IconsCSS{
+    float: right;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    display: block;
+
+
+}

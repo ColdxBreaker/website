@@ -1,0 +1,10 @@
+.IconCSS{
+    height: 100%;
+    margin: 0 15px;
+}
+.IconCSS:hover,
+.IconCSS:active{
+    fill: #9a9a9a;
+}
+
+
