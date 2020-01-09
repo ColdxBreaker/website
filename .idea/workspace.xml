@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52bf9656-7994-4c12-a69f-363975df52b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/dist/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Experiences/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Experiences/Experience/Experience.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,10 +16,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoc/Layout/Footer/Footer.module.css">
+        <entry file="file://$PROJECT_DIR$/pages/Index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="135">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/_error.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -88,6 +66,29 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Experiences/Experiences.tsx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Experiences/Experience/Experience.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -102,15 +103,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoc/Layout/Footer/Footer.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hoc/Layout/Header/Icons/Icons.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -120,20 +112,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoc/Layout/Header/Icons/Icons.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stylesheet.module.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -166,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/Projects/Project/Project.module.css" />
         <option value="$PROJECT_DIR$/containers/Layout/Header/Header.tsx" />
         <option value="$PROJECT_DIR$/components/Contact/Input.ts" />
         <option value="$PROJECT_DIR$/components/Contact/Input.tsx" />
@@ -217,6 +194,7 @@
         <option value="$PROJECT_DIR$/hoc/Layout/Footer/Footer.tsx" />
         <option value="$PROJECT_DIR$/hoc/Layout/Footer/Footer.module.css" />
         <option value="$PROJECT_DIR$/pages/_error.tsx" />
+        <option value="$PROJECT_DIR$/components/Experiences/Experience/Experience.tsx" />
       </list>
     </option>
   </component>
@@ -231,7 +209,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="491" />
+    <option name="y" value="453" />
     <option name="width" value="1680" />
     <option name="height" value="940" />
   </component>
@@ -252,6 +231,19 @@
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Experiences" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Experiences" type="462c0819:PsiDirectoryNode" />
+              <item name="Experience" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
@@ -318,6 +310,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -361,15 +354,15 @@
       <workItem from="1577690474361" duration="14006000" />
       <workItem from="1577947202292" duration="19666000" />
       <workItem from="1578111441294" duration="24826000" />
-      <workItem from="1578454890580" duration="575000" />
+      <workItem from="1578454890580" duration="834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65027000" />
+    <option name="totallyTimeSpent" value="65286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="940" extended-state="0" />
+    <frame x="491" y="453" width="1680" height="940" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1615431" />
@@ -395,25 +388,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pages/index.js" />
+      </list>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/Home/About/About.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/linkedin.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Projects/Project/Project.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -643,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoc/Layout/Header/NavigationItems/NavigationItems.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -740,6 +711,33 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Experiences/Experiences.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Experiences/Experience/Experience.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
