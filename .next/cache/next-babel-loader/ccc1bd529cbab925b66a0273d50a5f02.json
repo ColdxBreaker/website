@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport Layout from '../hoc/Layout/Layout';\nimport Home from '../components/Home/Home';\nimport React from 'react';\nimport \"../css/Index.module.css\";\n\nvar Index = function Index() {\n  return __jsx(Layout, null, __jsx(Home, null));\n};\n\nexport default Index;","map":null,"metadata":{},"sourceType":"module"}

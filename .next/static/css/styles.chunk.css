@@ -1,118 +1,32 @@
-._2T5RRkKt-WEFp4peB5iVDJ {
-    height: 90px;
-    /*position: fixed;*/
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #a7ff83;
-    display: inline-block;
-    justify-content: space-between;
-    /*align-items: center;*/
-    padding: 10px 20px;
-    box-sizing: border-box;
-}
-._2T5RRkKt-WEFp4peB5iVDJ nav{
-    height: 100%;
-}
-
-
-@media (max-width: 499px){
-    ._1_KUycB6dZMeUP3MKeqNpl{
-        display: none;
-    }
-}
-
-.rdBhBbuz-4yDpZynbmQsh{
-    float: right;
-    top: 50%;
-    position: relative;
-    transform: translateY(-50%);
-    display: block;
-
-
-}
-
-.SenWQGwClQKfMqJHlXBc6{
+._3E3ArCA6VDbZiPj7pRoFE_{
     height: 100%;
     margin: 0 15px;
 }
-.SenWQGwClQKfMqJHlXBc6:hover,
-.SenWQGwClQKfMqJHlXBc6:active{
+._3E3ArCA6VDbZiPj7pRoFE_:hover,
+._3E3ArCA6VDbZiPj7pRoFE_:active{
     fill: #9a9a9a;
 }
 
-
-
-.Ge7c8p0t3WXwGjXwq4x3P{
-    float: left;
-    top: 50%;
-    position: relative;
-    transform: translateY(-50%);
-    display: block;
-    margin: auto;
-
-
-}
-.Ge7c8p0t3WXwGjXwq4x3P li {
-    display: inline-block;
+._30CWUFMjmiAO1V09Wdd79k{
+    display: inline-flex;
+    padding-top: 25px;
+    /*background-color: green;*/
 }
 
-.Ge7c8p0t3WXwGjXwq4x3P li a{
-    color: #727272;
-    margin: 0 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.Ge7c8p0t3WXwGjXwq4x3P li a:hover{
-    color: black;
-}
-
-._2mY9QvOXNlMocSRfyNwXt4 {
-    font-family: 'Source Sans Pro', serif;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-    background-color: #071a52;
-    color: #f5f5f5;
-    font-size: 12px;
-}
-
-.tHKExWUw8eeYBcIxLlGhE {
-    text-align: center;
-    margin: 20px auto;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
-    width: 55%;
-    height: 250px;
-    background-color: whitesmoke;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
-
-._1bCQ0-K9QgGHsqxmbm74KX{
-    text-align: center;
-    color: #3cacff;
-    font-size: 50px;
-
-}
-
-._3tFHPtTjVS5sbDsk4p9DYp{
-    width: 100%;
-    height: auto;
-    background-color: #a7ff83;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", "sans-serif";
-}
 html {
     overflow-y: scroll;
 }
-p {
+
+* {
     margin: 0;
+    padding: 0;
+}
+.AnzctU6viupiIRdXH2u8j {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 

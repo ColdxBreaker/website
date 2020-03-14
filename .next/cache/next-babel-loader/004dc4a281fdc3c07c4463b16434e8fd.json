@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react'; // @ts-ignore\n\nimport classes from \"./Title.module.css\"; // @ts-ignore\n\nvar title = function title(props) {\n  return __jsx(\"div\", {\n    className: classes.Title\n  }, __jsx(\"p\", null, \"Hi I'm Chris Lim\"));\n};\n\nexport default title;","map":null,"metadata":{},"sourceType":"module"}

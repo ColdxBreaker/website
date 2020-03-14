@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react'; // @ts-ignore\n\nvar Aux = function Aux(props) {\n  return __jsx(\"div\", null, props.children);\n};\n\nexport default Aux;","map":null,"metadata":{},"sourceType":"module"}

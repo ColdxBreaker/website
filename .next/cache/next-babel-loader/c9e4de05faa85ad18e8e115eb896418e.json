@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport Header from \"./Header/Header\";\nimport Footer from \"./Footer/Footer\";\nimport Aux from \"../Aux\";\nexport default function Layout(props) {\n  return __jsx(Aux, null, __jsx(Header, null), props.children, __jsx(Footer, null));\n}\n;","map":null,"metadata":{},"sourceType":"module"}
