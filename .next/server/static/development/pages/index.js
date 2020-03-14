@@ -119,7 +119,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Icon_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Icon.module.css */ "./components/Icons/Icon/Icon.module.css");
 /* harmony import */ var _Icon_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Icon_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/chris/Desktop/New Website/components/Icons/Icon/Icon.tsx";
+var _jsxFileName = "/Users/chris/Desktop/website/components/Icons/Icon/Icon.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -170,7 +170,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Icon_Icon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Icon/Icon */ "./components/Icons/Icon/Icon.tsx");
 /* harmony import */ var _Icons_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Icons.module.css */ "./components/Icons/Icons.module.css");
 /* harmony import */ var _Icons_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Icons_module_css__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/chris/Desktop/New Website/components/Icons/Icons.tsx";
+var _jsxFileName = "/Users/chris/Desktop/website/components/Icons/Icons.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -199,7 +199,7 @@ const Icons = () => {
     },
     __self: undefined
   })];
-  const iconLinks = ["https://github.com/hiimchrislim", "https://www.linkedin.com/in/hiimchrislim", "mailto@hello@hiimchrislim.co"];
+  const iconLinks = ["https://github.com/hiimchrislim", "https://www.linkedin.com/in/hiimchrislim", "mailto:hello@hiimchrislim.co"];
   const allIcons = icons.map((icon, index) => {
     return __jsx(_Icon_Icon__WEBPACK_IMPORTED_MODULE_4__["default"], {
       key: index,
@@ -236,7 +236,7 @@ const Icons = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/chris/Desktop/New Website/components/Text/Text.tsx";
+var _jsxFileName = "/Users/chris/Desktop/website/components/Text/Text.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 
 
@@ -292,7 +292,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_Index_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/Index.module.css */ "./css/Index.module.css");
 /* harmony import */ var _css_Index_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_Index_module_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_Text_Text__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Text/Text */ "./components/Text/Text.tsx");
-var _jsxFileName = "/Users/chris/Desktop/New Website/pages/index.tsx";
+var _jsxFileName = "/Users/chris/Desktop/website/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -326,7 +326,7 @@ const Index = () => {
 __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "1139521232",
   __self: undefined
-}, "@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jaHJpcy9EZXNrdG9wL05ldyBXZWJzaXRlL3BhZ2VzL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFjbUIsQUFHd0IscUJBQ0gsa0JBQ0YsZ0JBQzZILDJJQUN2RCxpRkFDeEYiLCJmaWxlIjoiL1VzZXJzL2NocmlzL0Rlc2t0b3AvTmV3IFdlYnNpdGUvcGFnZXMvaW5kZXgudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBJY29ucyBmcm9tIFwiLi4vY29tcG9uZW50cy9JY29ucy9JY29uc1wiO1xuaW1wb3J0IGNsYXNzZXMgZnJvbSBcIi4uL2Nzcy9JbmRleC5tb2R1bGUuY3NzXCI7XG5pbXBvcnQgVGV4dCBmcm9tIFwiLi4vY29tcG9uZW50cy9UZXh0L1RleHRcIjtcblxuY29uc3QgSW5kZXggPSAoKSA9PiB7XG4gICAgcmV0dXJuIChcblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y2xhc3Nlcy5mcm9udFBhZ2V9PlxuICAgICAgICAgICAgPFRleHQvPlxuICAgICAgICAgICAgPEljb25zLz5cbiAgICAgICAgPC9kaXY+XG4gICAgKTtcbn07XG48c3R5bGUganN4IGdsb2JhbD57YFxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnUm9ib3RvJztcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBmb250LXdlaWdodDogNDAwO1xuICBzcmM6IGxvY2FsKCdSb2JvdG8nKSwgbG9jYWwoJ1JvYm90by1SZWd1bGFyJyksIHVybChodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tL3Mvcm9ib3RvL3YyMC9LRk9tQ25xRXU5MkZyMU11NzJ4S0tUVTFLdm56LndvZmYyKSBmb3JtYXQoJ3dvZmYyJyk7XG4gIHVuaWNvZGUtcmFuZ2U6IFUrMDQ2MC0wNTJGLCBVKzFDODAtMUM4OCwgVSsyMEI0LCBVKzJERTAtMkRGRiwgVStBNjQwLUE2OUYsIFUrRkUyRS1GRTJGO1xufVxuYH1cbjwvc3R5bGU+XG5cblxuZXhwb3J0IGRlZmF1bHQgSW5kZXg7XG4iXX0= */\n/*@ sourceURL=/Users/chris/Desktop/New Website/pages/index.tsx */");
+}, "@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jaHJpcy9EZXNrdG9wL3dlYnNpdGUvcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWNtQixBQUd3QixxQkFDSCxrQkFDRixnQkFDNkgsMklBQ3ZELGlGQUN4RiIsImZpbGUiOiIvVXNlcnMvY2hyaXMvRGVza3RvcC93ZWJzaXRlL3BhZ2VzL2luZGV4LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgSWNvbnMgZnJvbSBcIi4uL2NvbXBvbmVudHMvSWNvbnMvSWNvbnNcIjtcbmltcG9ydCBjbGFzc2VzIGZyb20gXCIuLi9jc3MvSW5kZXgubW9kdWxlLmNzc1wiO1xuaW1wb3J0IFRleHQgZnJvbSBcIi4uL2NvbXBvbmVudHMvVGV4dC9UZXh0XCI7XG5cbmNvbnN0IEluZGV4ID0gKCkgPT4ge1xuICAgIHJldHVybiAoXG5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e2NsYXNzZXMuZnJvbnRQYWdlfT5cbiAgICAgICAgICAgIDxUZXh0Lz5cbiAgICAgICAgICAgIDxJY29ucy8+XG4gICAgICAgIDwvZGl2PlxuICAgICk7XG59O1xuPHN0eWxlIGpzeCBnbG9iYWw+e2BcbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ1JvYm90byc7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgc3JjOiBsb2NhbCgnUm9ib3RvJyksIGxvY2FsKCdSb2JvdG8tUmVndWxhcicpLCB1cmwoaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL3JvYm90by92MjAvS0ZPbUNucUV1OTJGcjFNdTcyeEtLVFUxS3Zuei53b2ZmMikgZm9ybWF0KCd3b2ZmMicpO1xuICB1bmljb2RlLXJhbmdlOiBVKzA0NjAtMDUyRiwgVSsxQzgwLTFDODgsIFUrMjBCNCwgVSsyREUwLTJERkYsIFUrQTY0MC1BNjlGLCBVK0ZFMkUtRkUyRjtcbn1cbmB9XG48L3N0eWxlPlxuXG5cbmV4cG9ydCBkZWZhdWx0IEluZGV4O1xuIl19 */\n/*@ sourceURL=/Users/chris/Desktop/website/pages/index.tsx */");
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -435,7 +435,7 @@ function SvgLinkedin(props) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/chris/Desktop/New Website/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /Users/chris/Desktop/website/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),
