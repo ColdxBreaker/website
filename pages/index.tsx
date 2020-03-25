@@ -10,8 +10,7 @@ const Index = () => {
     return (
         <div>
             <Head>
-                <title>hiimchrislim.io</title>
-                {/*<link rel={"icon"} href={"/static/favicon.ico"}/>*/}
+                <title>hiimchrislim</title>
                 <link rel={"icon"} href={"/static/favicon.ico"}/>
             </Head>
             {/*<Navigation/>*/}
