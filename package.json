@@ -14,6 +14,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.4.1",
     "css-loader": "^3.4.0",
     "eject": "0.0.4",
     "next": "^9.1.4",
@@ -21,6 +22,7 @@
     "now": "^16.6.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.12.0",
     "react-scripts": "^3.3.0",
     "style-loader": "^1.1.1",
