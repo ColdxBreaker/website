@@ -11,7 +11,7 @@ const Index = () => {
         <div>
             <Head>
                 <title>hiimchrislim</title>
-                <link rel={"icon"} href={"/static/favicon.ico"}/>
+                <link rel={"icon"} href={"/favicon.ico"}/>
             </Head>
             {/*<Navigation/>*/}
             <div className={classes.frontPage}>
