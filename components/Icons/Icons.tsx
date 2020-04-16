@@ -4,7 +4,7 @@ import LinkedInIcon from "../../public/linkedin.svg";
 import GithubIcon from "../../public/github.svg";
 import Icon from "./Icon/Icon";
 import classes from "./Icons.module.css";
-import PDF from "../../public/resume.pdf";
+import PDF from "../../static/resume.pdf";
 import ResumeIcon from "../../public/resume.svg";
 
 const Icons = () => {
