@@ -9,13 +9,15 @@ class CustomDocument extends Document {
 
     render() {
         return (
-            <Html lang={"EN"}>
-                <head>
-                    <meta charSet="UTF-8"/>
-                    <meta name="description" content="Personal Website"/>
-                    <meta name="author" content="Chris Lim"/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                    <title>hiimchrislim.co</title>
+            <html lang={"EN"}>
+            <head>
+                <title>hiimchrislim.co</title>
+                <meta charSet="UTF-8"/>
+                <meta name="description" content="Personal Website"/>
+                <meta name="author" content="Chris Lim"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            </head>
+            <Head>
                     <link
                         rel="stylesheet"
                         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -23,12 +25,12 @@ class CustomDocument extends Document {
                         crossOrigin="anonymous"
                     />
                     <link rel="icon" type="image/x-icon" href={"../public/favicon.ico"}/>
-                </head>
+                </Head>
                 <body>
                 <Main/>
                 <NextScript/>
                 </body>
-            </Html>
+            </html>
         )
     }
 }
