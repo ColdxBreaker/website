@@ -9,7 +9,7 @@ class CustomDocument extends Document {
 
     render() {
         return (
-            <Html lang={en}>
+            <Html lang={"EN"}>
                 <head>
                     <meta charSet="UTF-8"/>
                     <meta name="description" content="Personal Website"/>
