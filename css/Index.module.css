@@ -2,10 +2,20 @@ html {
     overflow-y: scroll;
 }
 
-* {
+body {
     margin: 0;
     padding: 0;
+    background-color: white;
+    color: black;
 }
+
+@media screen and (prefers-color-scheme: dark){
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
 .frontPage {
     position: fixed;
     text-align: center;
