@@ -1,11 +1,12 @@
 html {
     overflow-y: scroll;
+    background-color: black;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: green;
     color: black;
 }
 
@@ -16,13 +17,13 @@ body {
     }
 }
 
-.frontPage {
-    position: fixed;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/*.frontPage {*/
+/*    position: fixed;*/
+/*    text-align: center;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
 /*.format {*/
 /*    grid-area: main;*/
 /*}*/

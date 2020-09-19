@@ -1,21 +1,20 @@
 .IconCSS {
-    height: 100%;
-    margin: 0 15px;
+    padding-right: 10px;
     fill: black;
 }
 
 .IconCSS:hover,
 .IconCSS:active {
-    fill: #9a9a9a;
+    fill: rgba(0,0,0,0.5);
 }
 
-@media screen and (prefers-color-scheme: dark) {
-    .IconCSS {
-        fill: white;
-    }
-    .IconCSS:hover,
-    .IconCSS:active {
-        fill: #afadad;
-    }
-}
+/*@media screen and (prefers-color-scheme: dark) {*/
+/*    .IconCSS {*/
+/*        fill: black;*/
+/*    }*/
+/*    .IconCSS:hover,*/
+/*    .IconCSS:active {*/
+/*        fill: #afadad;*/
+/*    }*/
+/*}*/
 

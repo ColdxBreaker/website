@@ -1,0 +1,24 @@
+.greeting {
+    font-size: 5vh;
+}
+
+.subtitle {
+    font-size: 5vh;
+    display: inline-block;
+    color: green;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 2.1vh;
+}
+
+.image {
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+}
+
+.test {
+    width: 60%;
+}

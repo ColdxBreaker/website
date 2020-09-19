@@ -25,7 +25,8 @@ class CustomDocument extends Document {
                         crossOrigin="anonymous"
                     />
                     <link rel="icon" type="image/x-icon" href={"../public/favicon.ico"}/>
-                </Head>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+            </Head>
                 <body>
                 <Main/>
                 <NextScript/>
