@@ -1,5 +1,3 @@
-import {Project} from "./projects";
-
 export interface status {
     status: string
     data: Object

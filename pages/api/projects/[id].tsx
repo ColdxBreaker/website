@@ -2,7 +2,7 @@ import {NextApiRequest, NextApiResponse} from "next";
 import {getProject} from "../../../content/projects";
 import {status, StatusMessages} from "../../../content/status";
 
-const projectHandler = (req: NextApiRequest, res: NextApiResponse) => {
+const projectHandler = (req: NextApiRequest, res: NextApiResponse<status>) => {
     const {
         query: {id},
         method,
