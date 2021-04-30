@@ -19,9 +19,9 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"]
+    "no-use-before-define": "off"
   },
+  "ignorePatterns": [".**", "package.json"],
   "settings": {
     "react": {
       "version": "detect"

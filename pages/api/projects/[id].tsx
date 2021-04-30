@@ -3,13 +3,11 @@ import { getProject } from "../../../content/projects";
 import { status, StatusMessages } from "../../../content/status";
 
 const projectHandler = (req: NextApiRequest, res: NextApiResponse<status>) => {
-  const {
-    query: { id },
-    method,
-  } = req;
+  const { method } = req;
+  // const {query: {id}, method} = req;
   let response: status;
   switch (method) {
-    case "GET":
+    case "GET": {
       const project = getProject(req.query.id);
       if (project.length === 0) {
         response = { status: StatusMessages.NOT_FOUND, data: {} };
@@ -19,6 +17,7 @@ const projectHandler = (req: NextApiRequest, res: NextApiResponse<status>) => {
         res.status(200).json(response);
       }
       break;
+    }
     default:
       res.setHeader("Allow", ["GET"]);
       res.status(405).end(`Method ${method} Not Allowed`);
