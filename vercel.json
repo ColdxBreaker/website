@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/github",
+      "destination": "https://github.com/hiimchrislim"
+    },
+    {
+      "source": "/linkedin",
+      "destination": "https://www.linkedin.com/in/hiimchrislim/"
+    }
+  ]
+}

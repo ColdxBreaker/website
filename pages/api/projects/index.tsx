@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { projects } from "../../content/projects";
-import { status, StatusMessages } from "../../content/status";
+import { projects } from "@/content/projects";
+import { status, StatusMessages } from "@/content/status";
 
 const projectsHandler = (req: NextApiRequest, res: NextApiResponse<status>) => {
   const response: status = { status: StatusMessages.FOUND, data: projects };
