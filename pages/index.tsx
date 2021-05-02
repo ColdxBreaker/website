@@ -8,21 +8,21 @@ import Icons from "@/components/Icons/Icons";
 const Home = () => {
   const icons = [
     {
-      name: "Github",
+      labelName: "Github",
       link: "https://github.com/hiimchrislim",
       image: <GithubIcon />,
     },
     {
-      name: "Linkedin",
+      labelName: "Linkedin",
       link: "https://www.linkedin.com/in/hiimchrislim/",
       image: <LinkedinIcon />,
     },
     {
-      name: "Email",
+      labelName: "Email",
       link: "mailto:hello@hiimchrislim.co",
       image: <EmailIcon />,
     },
-    { name: "Resume", link: "/resume.pdf", image: <ResumeIcon /> },
+    { labelName: "Resume", link: "/resume.pdf", image: <ResumeIcon /> },
   ];
 
   return (
