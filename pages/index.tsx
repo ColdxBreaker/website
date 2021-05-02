@@ -1,26 +1,39 @@
-import React from 'react';
-import Icons from "../components/Icons/Icons";
-import classes from "../css/Index.module.css";
-import Text from "../components/Text/Text";
-import Navigation from "../components/Sidebar/Navigation/Navigation";
-import Contact from "../components/Contact/Contact";
 import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import GithubIcon from "@/public/icons/github.svg";
+import EmailIcon from "@/public/icons/email.svg";
+import LinkedinIcon from "@/public/icons/linkedin.svg";
+import ResumeIcon from "@/public/icons/resume.svg";
+import Icons from "@/components/Icons/Icons";
 
-const Index = () => {
-    return (
-        <div>
-            <Head>
-                <title>hiimchrislim</title>
-                <link rel={"icon"} href={"/favicon.ico"}/>
-            </Head>
-            {/*<Navigation/>*/}
-            <div className={classes.frontPage}>
-                <Text/>
-                <Icons/>
-            </div>
-            {/*<Contact/>*/}
+const Home = () => {
+  const icons = [
+    { link: "https://github.com/hiimchrislim", image: <GithubIcon /> },
+    {
+      link: "https://www.linkedin.com/in/hiimchrislim/",
+      image: <LinkedinIcon />,
+    },
+    { link: "mailto:hello@hiimchrislim.co", image: <EmailIcon /> },
+    { link: "/resume.pdf", image: <ResumeIcon /> },
+  ];
+
+  return (
+    <div className={styles.container}>
+      <Head>
+        <title>hiimchrislim</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main className={"px-5"}>
+        <div className={"text-white text-center"}>
+          Hi I'm Chris Lim. I'm a Computer Science Student at the University of
+          Toronto!
+          <div className={"flex justify-center space-x-7 pt-7"}>
+            <Icons icons={icons} />
+          </div>
         </div>
-    );
+      </main>
+    </div>
+  );
 };
-
-export default Index;
+export default Home;

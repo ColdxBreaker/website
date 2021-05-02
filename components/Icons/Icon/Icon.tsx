@@ -1,11 +1,19 @@
-import React, {AnchorHTMLAttributes} from 'react';
-import classes from "./Icon.module.css";
+interface IconProps {
+  href: string;
+  img: JSX.Element;
+}
 
-const Icon = (props: AnchorHTMLAttributes<HTMLAnchorElement>) => {
-    return (
-        <a href={props.href} className={classes.IconCSS} target={"_blank"} rel="noopener" download>
-            {props.children}
-        </a>
-    );
+const Icon = ({ href, img }: IconProps) => {
+  return (
+    <a
+      className={"fill-current text-white-300 hover:text-green-500 "}
+      href={href}
+      target={"_blank"}
+      rel="noopener noreferrer"
+      download
+    >
+      {img}
+    </a>
+  );
 };
 export default Icon;
