@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import GithubIcon from "@/public/icons/github.svg";
 import EmailIcon from "@/public/icons/email.svg";
 import LinkedinIcon from "@/public/icons/linkedin.svg";
@@ -18,7 +17,7 @@ const Home = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <div className={"bg-black flex flex-col justify-center min-h-screen"}>
       <Head>
         <title>hiimchrislim</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,8 +25,10 @@ const Home = () => {
 
       <main className={"px-5"}>
         <div className={"text-white text-center"}>
-          Hi I'm Chris Lim. I'm a Computer Science Student at the University of
-          Toronto!
+          <p>
+            Hi I&apos;m Chris Lim. I&apos;m a Computer Science Student at the
+            University of Toronto!
+          </p>
           <div className={"flex justify-center space-x-7 pt-7"}>
             <Icons icons={icons} />
           </div>
