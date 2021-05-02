@@ -7,13 +7,22 @@ import Icons from "@/components/Icons/Icons";
 
 const Home = () => {
   const icons = [
-    { link: "https://github.com/hiimchrislim", image: <GithubIcon /> },
     {
+      name: "Github",
+      link: "https://github.com/hiimchrislim",
+      image: <GithubIcon />,
+    },
+    {
+      name: "Linkedin",
       link: "https://www.linkedin.com/in/hiimchrislim/",
       image: <LinkedinIcon />,
     },
-    { link: "mailto:hello@hiimchrislim.co", image: <EmailIcon /> },
-    { link: "/resume.pdf", image: <ResumeIcon /> },
+    {
+      name: "Email",
+      link: "mailto:hello@hiimchrislim.co",
+      image: <EmailIcon />,
+    },
+    { name: "Resume", link: "/resume.pdf", image: <ResumeIcon /> },
   ];
 
   return (
