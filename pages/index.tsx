@@ -24,8 +24,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div className={"text-white"}>
+      <main className={"px-5"}>
+        <div className={"text-white text-center"}>
           Hi I'm Chris Lim. I'm a Computer Science Student at the University of
           Toronto!
           <div className={"flex justify-center space-x-7 pt-3"}>
