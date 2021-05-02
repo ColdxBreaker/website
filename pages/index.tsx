@@ -28,7 +28,7 @@ const Home = () => {
         <div className={"text-white text-center"}>
           Hi I'm Chris Lim. I'm a Computer Science Student at the University of
           Toronto!
-          <div className={"flex justify-center space-x-7 pt-3"}>
+          <div className={"flex justify-center space-x-7 pt-7"}>
             <Icons icons={icons} />
           </div>
         </div>
