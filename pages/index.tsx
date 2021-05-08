@@ -35,7 +35,6 @@ const Home = ({
     },
     { labelName: "Resume", link: "/resume.pdf", image: <ResumeIcon /> },
   ];
-  console.log(data);
   return (
     <div className={"bg-black flex flex-col justify-center min-h-screen"}>
       <Head>
@@ -67,7 +66,6 @@ const Home = ({
 export const getServerSideProps: GetServerSideProps = async () => {
   const res = await fetch("https://api.github.com/orgs/2ofClubsApp");
   const data: Data = await res.json();
-  console.log(data);
   return {
     props: { data },
   };
