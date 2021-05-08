@@ -16,14 +16,12 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "no-use-before-define": "off",
     "react/react-in-jsx-scope": "off",
-    "no-console": "error"
+    "no-console": "error",
+    "no-undef": "off"
   },
   "settings": {
     "react": {

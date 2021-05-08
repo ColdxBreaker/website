@@ -1,5 +1,4 @@
 import Icon from "@/components/Icons/Icon/Icon";
-import { NextPage } from "next";
 
 interface IconElement {
   labelName: string;

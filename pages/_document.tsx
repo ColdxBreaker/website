@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang={"en"}>
         <Head>
-          <meta name={"description"} content={"My Personal Description"} />
+          <meta name={"description"} content={"My Personal Website"} />
         </Head>
         <body>
           <Main />
