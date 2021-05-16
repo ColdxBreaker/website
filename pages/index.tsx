@@ -57,6 +57,8 @@ const Home = ({
           <div className={"flex justify-center space-x-7 pt-7"}>
             <Icons icons={icons} />
           </div>
+          <h3>Test</h3>
+          <a>Hi</a>
         </div>
       </main>
     </div>

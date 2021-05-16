@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: "Open Sans";
-    font-weight: normal;
-    src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-  }
+    @font-face {
+        font-family: "Open Sans";
+        font-weight: 500;
+        src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+    }
+
+    :root {
+        --font-heading: 'Raleway', sans-serif;
+        --font-body: 'Open Sans', sans-serif;
+    }
+
 }
+
+
+
+

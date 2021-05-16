@@ -17,8 +17,8 @@ const Project = ({
 }: ProjectProps) => {
   return (
     <div className={"bg-white"}>
-      <p>{title}</p>
-      <img src={avatar_url} />
+      <div>{title}</div>
+      <img className={"rounded-full w-12 h-12"} src={avatar_url} />
       <p>{description}</p>
       <p>{repo}</p>
       <p>{docs}</p>
