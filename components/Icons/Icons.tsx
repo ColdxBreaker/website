@@ -1,4 +1,4 @@
-import Icon from "@/components/Icons/Icon/Icon";
+import { Icon } from "@/components/Icons/Icon/Icon";
 
 interface IconElement {
   labelName: string;

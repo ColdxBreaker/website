@@ -1,10 +1,10 @@
-interface IconProps {
+export interface IconProps {
   labelName: string;
   href: string;
   img: JSX.Element;
 }
 
-const Icon = ({ labelName, href, img }: IconProps) => {
+export const Icon = ({ labelName, href, img }: IconProps) => {
   return (
     <a
       className={"fill-current text-white-300 hover:text-green-500 "}
@@ -18,4 +18,3 @@ const Icon = ({ labelName, href, img }: IconProps) => {
     </a>
   );
 };
-export default Icon;

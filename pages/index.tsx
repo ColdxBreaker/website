@@ -4,6 +4,7 @@ import EmailIcon from "@/public/icons/email.svg";
 import LinkedinIcon from "@/public/icons/linkedin.svg";
 import ResumeIcon from "@/public/icons/resume.svg";
 import Icons from "@/components/Icons/Icons";
+import { Button } from "../stories/Button";
 
 const Home = () => {
   const icons = [
@@ -31,7 +32,6 @@ const Home = () => {
         <title>hiimchrislim</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={"px-5"}>
         <div className={"text-white text-center"}>
           <p>

@@ -10,7 +10,7 @@
     "lint": "eslint --fix --ext .ts,.tsx .",
     "format": "prettier --write . --ignore-unknown",
     "format:check": "prettier --list-different .",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./components/ -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
