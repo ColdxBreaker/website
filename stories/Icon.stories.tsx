@@ -1,18 +1,16 @@
 import React from "react";
 import { Icon, IconProps } from "../components/Icons/Icon/Icon";
-import { Story } from "@storybook/react";
+import { Icons, IconElement } from "../components/Icons/Icons";
+import { Story, Meta } from "@storybook/react";
 import GithubIcon from "./assets/github.svg";
 
 export default {
-  title: "Icon",
-  component: Icon,
-};
+  title: "Icons",
+  component: Icons,
+} as Meta;
 
-const Template: Story<IconProps> = (args) => <Icon {...args} />;
+const Template: Story<{ icons: IconElement[] }> = (args) => <Icons {...args} />;
 
-export const aa = Template.bind({});
-aa.args = {
-  labelName: "Github",
-  href: "https://github.com/hiimchrislim",
-  // img: <GithubIcon />,
-};
+// const ManyIcons = (args) => (
+//   <Icons icons={}/>
+// )

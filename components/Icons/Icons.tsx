@@ -1,12 +1,12 @@
 import { Icon } from "@/components/Icons/Icon/Icon";
 
-interface IconElement {
+export interface IconElement {
   labelName: string;
   link: string;
   image: JSX.Element; // Need to change this later
 }
 
-const Icons = (props: { icons: IconElement[] }) => {
+export const Icons = (props: { icons: IconElement[] }) => {
   const allIcons = props.icons.map((icon: IconElement, idx: number) => {
     return (
       <Icon
@@ -19,5 +19,3 @@ const Icons = (props: { icons: IconElement[] }) => {
   });
   return <>{allIcons}</>;
 };
-
-export default Icons;
