@@ -36,7 +36,8 @@ const Home = ({
     { labelName: "Resume", link: "/resume.pdf", image: <ResumeIcon /> },
   ];
   return (
-    <div className={"bg-black flex flex-col justify-center min-h-screen"}>
+    // flex flex-col justify-center
+    <div className={"bg-black min-h-screen"}>
       <Head>
         <title>hiimchrislim</title>
         <link rel="icon" href="/favicon.ico" />
@@ -47,6 +48,8 @@ const Home = ({
         description={data.description}
         repo={"https://github.com/2ofClubsApp"}
         docs={data.blog}
+        start_date={"May 2020"}
+        end_date={"Aug 2020"}
       />
       <main className={"px-5"}>
         <div className={"text-white text-center"}>
@@ -57,8 +60,6 @@ const Home = ({
           <div className={"flex justify-center space-x-7 pt-7"}>
             <Icons icons={icons} />
           </div>
-          <h3>Test</h3>
-          <a>Hi</a>
         </div>
       </main>
     </div>
