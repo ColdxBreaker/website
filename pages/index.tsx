@@ -36,8 +36,7 @@ const Home = ({
     { labelName: "Resume", link: "/resume.pdf", image: <ResumeIcon /> },
   ];
   return (
-    // flex flex-col justify-center
-    <div className={"bg-black min-h-screen"}>
+    <div className={"flex flex-col justify-center bg-black min-h-screen"}>
       <Head>
         <title>hiimchrislim</title>
         <link rel="icon" href="/favicon.ico" />
@@ -67,7 +66,7 @@ const Home = ({
 };
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const res = await fetch("https://api.github.com/orgs/2ofClubsApp");
+  const res = await fetch("/api/projects");
   const data: Data = await res.json();
   return {
     props: { data },
