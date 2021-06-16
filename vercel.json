@@ -11,8 +11,12 @@
       "destination": "https://www.github.com/hiimchrislim/:slug"
     },
     {
-      "source": "/maps",
+      "source": "/maputm",
       "destination": "https://maputm.tk"
+    },
+    {
+      "source": "/2ofClubs",
+      "destination": "https://2ofclubs.app"
     }
   ]
 }
