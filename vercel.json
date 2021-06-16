@@ -9,6 +9,10 @@
     {
       "source": "/linkedin",
       "destination": "https://www.linkedin.com/in/hiimchrislim/"
+    },
+    {
+      "source": "/github/:slug",
+      "destination": "https://www.github.com/hiimchrislim/:slug"
     }
   ]
 }
