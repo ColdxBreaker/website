@@ -13,6 +13,10 @@
     {
       "source": "/github/:slug",
       "destination": "https://www.github.com/hiimchrislim/:slug"
+    },
+    {
+      "source": "/maps",
+      "destination": "https://maputm.tk"
     }
   ]
 }
